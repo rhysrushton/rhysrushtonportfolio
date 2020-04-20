@@ -1,0 +1,61 @@
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #FF4136;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color:#DDDDDD; 
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  h3{
+    font-family: 'Inconsolata', monospace;
+    text-decoration: underline; 
+  }
+
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+  }
+
+ .bio{
+   text-align: center;
+ }
+
+ .dp img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ }
