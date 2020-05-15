@@ -1,0 +1,22 @@
+{
+  "name": "rhysrushtonportfolio",
+  "version": "1.0.0",
+  "description": "portfolio homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhysrushton/rhysrushtonportfolio.git"
+  },
+  "author": "rhys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhysrushton/rhysrushtonportfolio/issues"
+  },
+  "homepage": "https://github.com/rhysrushton/rhysrushtonportfolio#readme",
+  "dependencies": {
+    "jquery-parallax.js": "^1.5.0"
+  }
+}
