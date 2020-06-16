@@ -1,14 +1,14 @@
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: #FF4136;
+
   }
   
   /* Navbar links */
   #navbar a {
     float: left;
     display: block;
-    color: #DDDDDD; 
+    color: black;  
     text-align: center;
     padding: 14px;
     text-decoration: none;
